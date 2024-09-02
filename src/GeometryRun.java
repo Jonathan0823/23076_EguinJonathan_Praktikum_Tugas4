@@ -1,6 +1,7 @@
 public class GeometryRun {
     public static void main(String[] args) {
-
+        
+        // objek dari class Balok dan Kubus, lalu memanggil method
         Balok b = new Balok(9, 2, 5);
         b.volume();
         b.luasPermukaan();
