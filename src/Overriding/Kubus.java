@@ -1,3 +1,4 @@
+package Overriding;
 public class Kubus{
     int panjang;
 
