@@ -13,13 +13,15 @@ public class Balok extends Kubus {
     }
 
     // override method volume dan luasPermukaan
+    @Override
     public void volume() {
         int volume = panjang * lebar * tinggi;
         System.out.println("Volume Balok = " + volume);
     }
 
-    public void luasPermukaan() {   
-        int luasPermukaan = 2 * ((panjang * lebar) + (panjang * tinggi) + (lebar * tinggi));
+    @Override
+    public void luasPermukaan() {
+        int luasPermukaan = 2 * (panjang * lebar + panjang * tinggi + lebar * tinggi);
         System.out.println("Luas Permukaan Balok = " + luasPermukaan);
     }
 }
