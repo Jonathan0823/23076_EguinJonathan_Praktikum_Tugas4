@@ -1,4 +1,4 @@
-package Overriding;
+package overriding;
 public class GeometryRun {
     public static void main(String[] args) {
         
